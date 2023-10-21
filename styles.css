@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.horz-bar{
+    height:6px;
+    width:250px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.btn-style{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black ;
+    border-radius: 80px;
+    border-color: black;
+}
+.btns{
+align-self: center;
+display: flex;
+gap: 40px;
+
+}
+
+.btn{
+    height:55px;
+    width: 90px;
+    border-radius: 5px;
+}
+.container{
+display: flex;
+flex-direction: column;
+gap: 5rem;
+
+}
+.bg-color{
+    background-color: rgb(96, 96, 205);
+}
